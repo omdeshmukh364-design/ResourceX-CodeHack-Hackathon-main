@@ -1,0 +1,11 @@
+pmOnFail: ignore
+
+minimumReleaseAgeExclude:
+  - '@next/*'
+  - next
+
+allowBuilds:
+  '@firebase/util': true
+  protobufjs: true
+  '@tailwindcss/oxide-win32-x64-msvc': true
+  '@next/swc-win32-x64-msvc': true
